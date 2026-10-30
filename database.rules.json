@@ -1,0 +1,13 @@
+{
+  "rules": {
+    "state": { ".read": true, ".write": true },
+    "votes": {
+      ".read": true,
+      "$session": { "$round": { "$device": {
+        ".write": "root.child('state/phase').val() === 'voting' && root.child('state/session').val() === $session && root.child('state/roundKey').val() === $round",
+        ".validate": "newData.hasChildren(['name']) && newData.child('name').isString() && newData.child('name').val().length <= 60"
+      } } }
+    },
+    "presence": { ".read": true, "$session": { "$device": { ".write": true } } }
+  }
+}

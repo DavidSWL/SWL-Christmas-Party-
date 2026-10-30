@@ -60,7 +60,7 @@ body.tv{height:100vh;overflow:hidden;display:flex;align-items:center;justify-con
 @keyframes fall{to{transform:translateY(60cqw) rotate(540deg)}}
 
 .bgimg{position:absolute;inset:0;width:100%;height:100%;display:block}
-.qrspot{position:absolute;left:71.89%;top:30.82%;width:14.95%;aspect-ratio:1;background:#fff}
+.qrspot{position:absolute;left:71.72%;top:28.33%;width:15.42%;aspect-ratio:1;background:#fff}
 .qrspot img{width:100%;height:100%;display:block;image-rendering:pixelated}
 .joined{position:absolute;left:79.4%;top:60.6%;transform:translateX(-50%);margin:0;padding:.4cqw 1cqw;border-radius:999px;background:rgba(10,35,24,.85);color:var(--ink);font-size:1.05cqw;font-weight:600;white-space:nowrap}
 

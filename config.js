@@ -12,8 +12,9 @@ window.SWL_CONFIG = {
 
   // 3) Who people can vote for. Add or remove names here.
   names: [
-    "Alfredo", "David", "Jacqui", "Jessica", "Kim", "Luis",
-    "Max", "Miguel", "Sydney", "Tanya", "Travis", "Yocelin"
+    "Alfredo Rosas", "David Eufracio", "Jacqui Orlandos", "Jessica Nesci-Mendoza", "Kim Thrall", "Luis Espino",
+    "Sebastian Gomez", "Ricardo Gonzalez", "Sydney Smith", "Tanya Soto", "Travis Gillespie", "Yocelin Reynoso Prado", 
+    "Casey Silva", "Sandy Hansen", "Paul Hansen", "Dan Hansen", "Bryan Hansen", "Todd Shaw", "Jim Cunningham", "Chris Mello", "Jesus Carrillo", "Sara Zeveh", "Aunjenin Andino" 
   ],
 
   // 4) The rounds: [English, Spanish, short label for the host list]
